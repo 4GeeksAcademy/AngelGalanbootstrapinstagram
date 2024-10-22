@@ -1,0 +1,17 @@
+.navbar {
+    border-bottom: 1px solid #ddd;
+    .nav-pill .nav-link{
+        color: grey;
+    }
+    .nav-pill .nav-link.active{
+        color: blue;
+    }
+}
+
+a.active {
+    background-color: #ddd !important;
+}
+
+#feedView {
+    display: none;
+}
